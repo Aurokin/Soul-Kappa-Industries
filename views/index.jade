@@ -1,0 +1,154 @@
+extends layout
+
+block content
+  nav#mainNav.navbar.navbar-default.navbar-fixed-top
+    .container-fluid
+      // Brand and toggle get grouped for better mobile display
+      .navbar-header
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand.page-scroll(href='#page-top') Soul Kappa Industries
+      // Collect the nav links, forms, and other content for toggling
+      #bs-example-navbar-collapse-1.collapse.navbar-collapse
+        ul.nav.navbar-nav.navbar-right
+          li
+            a.page-scroll(href='#about') About
+          li
+            a.page-scroll(href='#pricing') Pricing
+          li
+            a.page-scroll(href='#portfolio') Portfolio
+          li
+            a.page-scroll(href='#contact') Contact
+      // /.navbar-collapse
+    // /.container-fluid
+  header
+    .header-content
+      .header-content-inner
+        h1 Soul Kappa Industries
+        hr
+        p
+          | Fast and Reliable No Healer Gold CM Carries!
+        a.btn.btn-primary.btn-xl.page-scroll(href='#about') Find Out More
+  section#about.bg-primary
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2.text-center
+          h2.section-heading Information & Requirements
+          hr.light
+          p.text-faded
+            | Soul Kappa Industries is a Challenge Mode Team of Top US Players.
+          p.text-faded
+            | We currently only offer our services on Select US Servers.
+          p.text-faded
+            | We require you to listen on Voice Chat, Discord, and play along with us.
+          p.text-faded
+            | We also ask that you bring 3 DPS Flasks, 60 DPS Pots, 5 Goblin Gliders.
+          p.text-faded
+            | We can make exceptions with these requirements, if you cannot connect to Discord we prefer Skype or Teamspeak 3.
+          a.btn.btn-default.btn-xl(href='#pricing') Get Started!
+  section#pricing
+    .container
+      .row
+        .col-lg-12.text-center
+          h2.section-heading Pricing
+          hr.primary
+    .container
+      .row
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            h3 250k
+            p.text-muted Burning Legion, Area 52, Illidan, Medivh, Kargath, Sargeras, Kil'Jaeden
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            h3 300k
+            p.text-muted Tichondrius, Turalyon, Mal'Ganis
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            h3 Double Carries
+            p.text-muted We also offer double carries if you and a friend would like to purchase your service at the same time
+        .col-lg-3.col-md-6.text-center
+          .service-box
+            h3 Special Inquiries
+            p.text-muted Please contact us for questions about alternative servers or payment
+  section#portfolio.no-padding
+    .container-fluid
+      .row.no-gutter
+        .col-lg-4.col-sm-6
+          a.portfolio-box(href='#')
+            img.img-responsive(src='/images/portfolio/1.png', alt='')
+            .portfolio-box-caption
+              .portfolio-box-caption-content
+                .project-category.text-faded
+                  | Category
+                .project-name
+                  | Project Name
+        .col-lg-4.col-sm-6
+          a.portfolio-box(href='#')
+            img.img-responsive(src='/images/portfolio/2.png', alt='')
+            .portfolio-box-caption
+              .portfolio-box-caption-content
+                .project-category.text-faded
+                  | Category
+                .project-name
+                  | Project Name
+        .col-lg-4.col-sm-6
+          a.portfolio-box(href='#')
+            img.img-responsive(src='/images/portfolio/3.png', alt='')
+            .portfolio-box-caption
+              .portfolio-box-caption-content
+                .project-category.text-faded
+                  | Category
+                .project-name
+                  | Project Name
+        .col-lg-4.col-sm-6
+          a.portfolio-box(href='#')
+            img.img-responsive(src='/images/portfolio/4.png', alt='')
+            .portfolio-box-caption
+              .portfolio-box-caption-content
+                .project-category.text-faded
+                  | Category
+                .project-name
+                  | Project Name
+        .col-lg-4.col-sm-6
+          a.portfolio-box(href='#')
+            img.img-responsive(src='/images/portfolio/5.jpg', alt='')
+            .portfolio-box-caption
+              .portfolio-box-caption-content
+                .project-category.text-faded
+                  | Category
+                .project-name
+                  | Project Name
+        .col-lg-4.col-sm-6
+          a.portfolio-box(href='#')
+            img.img-responsive(src='/images/portfolio/6.jpg', alt='')
+            .portfolio-box-caption
+              .portfolio-box-caption-content
+                .project-category.text-faded
+                  | Category
+                .project-name
+                  | Project Name
+  aside.bg-dark
+    .container.text-center
+      .call-to-action
+        h2 Discord Voice / Chat Client
+        a.btn.btn-default.btn-xl.wow.tada(href='https://discordapp.com/download') Download Now!
+  section#contact
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2.text-center
+          h2.section-heading Contact Info
+          hr.primary
+          p
+            | Ready to purchase 8/8 Gold? That's great! We prefer you contact us using Discord but we are also available via E-Mail
+          p
+            | Please Provide Your Battletag, Faction, and Server
+          hr.primary
+        .col-lg-4.col-lg-offset-2.text-center
+          p
+            a(href="https://discord.gg/0jAxkRz9u7fhqGmL") Discord Sales Server
+        .col-lg-4.text-center
+          p
+            a(href='mailto:SoulKappaIndustries@gmail.com') SoulKappaIndustries@gmail.com
